@@ -82,17 +82,17 @@ public class Handle {
         }
     }
 
-    /*public void findAddress(){
+    public void findAddress(String address){
         System.out.println("Your Person Address for ?");
         for(Person person: list){
-            if(person.getAddress() == address{
+            if(person.getAddress().equals(address)){
                 person.Display();
             }
             else {
                 System.out.println("Not founded");
             }
         }
-    }*/
+    }
 
 
 
